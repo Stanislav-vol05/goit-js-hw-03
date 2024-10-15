@@ -1,6 +1,6 @@
 function slugify(title) {
     return title
-        toLoverCase()
+        toLowerCase()
             .split(' ')
             .join('-');
 }
